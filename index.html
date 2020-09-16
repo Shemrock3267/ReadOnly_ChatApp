@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/chat.css">
+
+</head>
+
+<body>
+  <div class="container_login">
+    <div class="login__box" id="login_form">
+      <h1 class="head">Login</h1>
+      <input id="username" class="input username" type="text" name="" placeholder="Username">
+      <input id="password" class="input password" type="password" name="" placeholder="Password">
+      <button id="login__button" class="login__button" name="">Login</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container__chat">
+      <div id="chat__box" class="chat__box">
+        <aside id="sidebar" class="sidebar">
+
+          <header id="sidebar__header" class="sidebar__header">
+            <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_search.png" id="search__icon"
+              class="search__icon"></a>
+            <input id="search" class="search" type="text" placeholder="search">
+          </header>
+          <ul id="conversation__list" class="conversation__list">
+
+          </ul>
+        </aside>
+        <main class="chat__main">
+          <header id="chat__title" class="chat__title">
+
+          </header>
+          <ul id="chat__list" class="chat__list">
+
+          </ul>
+          <footer class="footer">
+            <textarea id="textarea" class="textarea" placeholder="Type your message"></textarea>
+            <img id="attach__picture" class="picture pic"
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_picture.png" alt="">
+            <img id="attach__file" class="picture file"
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_file.png" alt="">
+            <a id="send__button" class="send__button" href="#">Send</a>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+<script src="js/authorization.js"></script>
+<script src="js/Chats.js"></script>
+<script src="js/ChatUI.js"></script>
+<script src="js/Dialog.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
